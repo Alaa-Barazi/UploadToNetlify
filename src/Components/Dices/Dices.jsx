@@ -11,10 +11,10 @@ export default function Dices({ img1, img2 }) {
 
   return (
     <>
-      <StyledImg src={img1} />
+      <StyledImg src={img1} alt={img1} />
       <br />
       <br />
-      <StyledImg src={img2} />
+      <StyledImg src={img2} alt={img2}/>
     </>
   );
 }
